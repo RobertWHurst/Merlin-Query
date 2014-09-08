@@ -1,28 +1,19 @@
 {
-  "name": "viceroy-query",
-  "version": "0.0.1",
-  "description": "Viceroy ORM's query language implementation",
+  "name": "merlin-query",
+  "version": "0.0.0",
+  "description": "Monarch ORM's query language implementation",
   "main": "./index.js",
   "scripts": {
-    "test": "./node_modules/.bin/faucet"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Battlefy/Viceroy-Query.git"
+    "test": "./node_modules/.bin/tape ./test/*.js"
   },
   "keywords": [
     "query",
     "queries",
-    "viceroy"
+    "monarch"
   ],
   "author": "Robert Hurst <robertwhurst@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Battlefy/Viceroy-Query/issues"
-  },
-  "homepage": "https://github.com/Battlefy/Viceroy-Query",
+  "license": "MIT",
   "devDependencies": {
-    "faucet": "0.0.0",
     "tape": "~2.4.2"
   }
 }
